@@ -10,3 +10,11 @@
   font-size: 15px;
 }
 
+
+.text-wrap{
+
+
+  overflow-wrap: break-word;
+
+}
+
