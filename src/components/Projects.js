@@ -15,7 +15,6 @@ export default class Projects extends Component {
         return <div>
                       <div className="card">
                       <div className="card-content">
-
                       <h6><strong>Projects</strong></h6>
                       <p><strong>Responsive Gym Website Design:</strong></p>
 <p style={{'font-size': '13px'}}> Responsive Web Design using Html, Css and Javascript.</p>
