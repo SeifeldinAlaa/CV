@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
+
+
 import {HashLink as Link} from 'react-router-hash-link';
 
 class Navbar extends Component {
     render() {
         return (
             <>
-                <nav className="light-red darken-4">
-                    <div className="container">
-                        <div className="nav-wrapper">
+           
+                <nav className="light-red darken-4" >
+                    <div className="container" >
+                        <div className="nav-wrapper" >
                             <Link to='/' className='brand-logo'>
                                Web Developer
                             </Link>
-                            <Link to='/' data-target='side-nav' className='sidenav-trigger'>
-                                <i className='material-icons' >menu
-                                </i>
+                            <Link to='/'   data-target='side-nav' className='sidenav-trigger' >
+                                <i className='material-icons'  > menu
+                                </i> 
                                 
                             </Link>
         <ul className="right hide-on-med-and-down">
@@ -28,7 +31,7 @@ class Navbar extends Component {
                 </Link>    
             </li>
             <li>
-            <Link to='/experiences'>
+            <Link to='/experiences' >
                 <i className="fas fa-id-badge"></i> Experiences
                 </Link>    
             </li>
@@ -47,7 +50,7 @@ class Navbar extends Component {
                     </div>
                 </nav>
                 
-                <ul className="sidenav" id="side-nav">
+                <ul className='sidenav'  id='side-nav' >
                 
             <li>
             
@@ -78,6 +81,7 @@ class Navbar extends Component {
             
         </ul>
         
+      
         
             </>
         );

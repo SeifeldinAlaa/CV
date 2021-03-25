@@ -34,11 +34,16 @@ My Dream is to work and evolve always which I work on continuously by always doi
                   <p><strong>Email:</strong> seifeldin.alaa@gmail.com</p>
                   <p><strong>Phone:</strong> 01007685933</p>
                 </div>
-                <div className='s12 m6 l6 xl6'>
-                <p><strong>Native Language:</strong> Arabic</p>
-                  <p><strong>First Language:</strong> English</p>
-                  <p><strong>Second Language:</strong> German</p>
-                </div>
+                     <div className='col s12 m6 l6 xl6'>
+                         <p> <strong>Native Language:</strong> Arabic</p>
+                         
+                       
+                         <p> <strong>First Language:</strong> English</p>
+                         
+                         
+                         <p> <strong>Second Language:</strong> German</p>
+                          
+                   </div>
               </div>
           </div>
         </div>

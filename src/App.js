@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import Experiences from './components/Experiences';
 import Educations from './components/Educations';
 import Projects from './components/Projects';
-
+import Navbar from './components/Navbar';
 
 
 
@@ -16,18 +16,24 @@ function App() {
 
 return (
 <Router> 
-        <>
-       
-        <Route exact path = '/' component = { Home } />  
+        
          
+        
+<Route exact path = '/' component = { Home } />
+       
+   
+  
+<Navbar />
+        
 <Switch>
+
 <Route  path = '/skills' component = { Skills } />  
 <Route  path = '/educations' component = { Educations } /> 
 <Route  path = '/experiences' component = { Experiences } />  
 <Route path = '/projects' component = { Projects} /> 
 
 </Switch>
-        </>
+        
          </Router>
 
 

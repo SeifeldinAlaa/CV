@@ -11,6 +11,7 @@ import Projects from './Projects';
     render() {
         return ( 
                   <section>
+                     
                  <Navbar /> 
                 
                  <div className = "container">
