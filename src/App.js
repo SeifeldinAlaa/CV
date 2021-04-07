@@ -12,21 +12,19 @@ import Navbar from './components/Navbar';
 
 
 
+
 function App() {
 
 return (
-<Router> 
-        
-         
-        
-<Route exact path = '/' component = { Home } />
-       
-   
-  
-<Navbar />
-        
-<Switch>
 
+
+    
+
+<Router> 
+<Navbar />
+<Switch>
+    
+<Route exact path = '/' component = { Home } />
 <Route  path = '/skills' component = { Skills } />  
 <Route  path = '/educations' component = { Educations } /> 
 <Route  path = '/experiences' component = { Experiences } />  

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Skills from './Skills';
 import Experiences from './Experiences';
 import About from './About';
-import Navbar from './Navbar';
+
 import Profile from './Profile';
 import Educations from './Educations';
 import Projects from './Projects';
@@ -12,7 +12,7 @@ import Projects from './Projects';
         return ( 
                   <section>
                      
-                 <Navbar /> 
+                 
                 
                  <div className = "container">
                  <div className = "row">
