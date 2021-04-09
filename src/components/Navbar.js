@@ -9,6 +9,10 @@ import {HashLink as Link} from 'react-router-hash-link';
    class Navbar extends Component {
 
     state = {clicked:false}
+
+    handleClick = () => {
+        this.setState({clicked: !this.state.clicked})
+    }
       render() {
           return (
              <nav className="NavbarItems">
@@ -16,7 +20,7 @@ import {HashLink as Link} from 'react-router-hash-link';
              <div className="menu-icon" onClick={this.handleClick}>
 <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
              </div>
-             <ul className="right hide-on-med-and-down">
+             <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                  {MenuItems.map((item, index) => {
 return (
 <li key={index}><Link className={item.cName} to={item.url}>

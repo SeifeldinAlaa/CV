@@ -25,7 +25,7 @@ iconCName: 'fas fa-home'
 
     {
       title: 'Experiences',
-      url: 'experiences',
+      url: '/experiences',
       cName: 'nav-links',
       iconCName:'fas fa-graduation-cap'
       
