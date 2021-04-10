@@ -38,6 +38,7 @@ https://github.com/SeifeldinAlaa/Udacity_landingpage_project</Link>
 <p style={{'font-size': '13px'}}>A react app to get the weather data from https://openweathermap.org/api using city name.</p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/WeatherAppReact' }} target="_blank" >
 <img  src={WeatherAppReact}  style={{'width':'80%', 'height':'80%'}} alt="Weather App React"/>
+<br></br>
 https://github.com/SeifeldinAlaa/WeatherAppReact
 </Link>
 <br></br>
@@ -54,12 +55,14 @@ https://github.com/SeifeldinAlaa/WeatherAppReact
 <p style={{'font-size': '13px'}}>A To Do List created using react.</p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/To_Do_List_React' }} target="_blank" >
 <img  src={ToDoListReact}  style={{'width':'80%', 'height':'80%','color':'red'}} alt="To Do List React"/>
+<br></br>
 https://github.com/SeifeldinAlaa/To_Do_List_React
 </Link>
 <br></br>
 <p><strong>Bird shooting JavaScript Game:</strong></p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/JavaScript_Game' }} target="_blank">
 <img  src={Bird_Shooting_JavaScript_Game}  style={{'width':'80%', 'height':'80%'}} alt="Bird shooting JavaScript Game"/>
+<br></br>
 https://github.com/SeifeldinAlaa/JavaScript_Game
 </Link>
 <br></br>
@@ -67,6 +70,7 @@ https://github.com/SeifeldinAlaa/JavaScript_Game
 <p style={{'font-size': '13px'}}>A website which shows teachers information like Teacher's name, age, followers and pictures.</p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/Teachers' }} target="_blank" >
 <img  src={Teachers}  style={{'width':'80%', 'height':'80%'}} alt="Teachers"/>
+<br></br>
 https://github.com/SeifeldinAlaa/Teachers
 </Link>
 <br></br>
@@ -74,6 +78,7 @@ https://github.com/SeifeldinAlaa/Teachers
 <p style={{'font-size': '13px'}}>A HTML Registration Form which submits your registration's data.</p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/Registration_Form' }} target="_blank">
 <img  src={RegistrationForm}  style={{'width':'80%', 'height':'80%'}} alt="Registration Form"/>
+<br></br>
 https://github.com/SeifeldinAlaa/Registration_Form
 </Link>
 <br></br>
@@ -81,6 +86,7 @@ https://github.com/SeifeldinAlaa/Registration_Form
 <p style={{'font-size': '13px'}}>A Portfolio React app which contains my information and my projects.</p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/My_Portfolio' }} target="_blank">
 <img  src={MyPortfolio}  style={{'width':'80%', 'height':'80%'}} alt="My Portfolio"/>
+<br></br>
 https://github.com/SeifeldinAlaa/My_Portfolio
 </Link>
 <br></br>
@@ -88,6 +94,7 @@ https://github.com/SeifeldinAlaa/My_Portfolio
 <p style={{'font-size': '13px'}}>A react app which creates social media icons as links and connects to social media channels.</p>
 <Link className='text-wrap' to={{ pathname:'https://github.com/SeifeldinAlaa/Social_Follow_Component' }} target="_blank" >
 <img  src={SocialFollowComponent}  style={{'width':'80%', 'height':'80%'}} alt="Social Follow Component"/>
+<br></br>
 https://github.com/SeifeldinAlaa/Social_Follow_Component
 </Link>
                       </div>
