@@ -14,7 +14,7 @@ iconCName: 'fas fa-home'
     cName: 'nav-links',
     iconCName: 'fas fa-copy'
     
-    }, 
+    },
   {
     title: 'Educations',
     url: '/educations',
