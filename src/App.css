@@ -1,0 +1,25 @@
+.flex-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.font-size{
+
+  font-size: 15px;
+}
+
+
+.text-wrap{
+
+
+  overflow-wrap: break-word;
+
+}
+
+i.activator{background-color: rgba(223, 77, 77, 0.836);
+
+}
+
+

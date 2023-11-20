@@ -1,0 +1,102 @@
+.NavbarItems {
+ 
+  background-color: rgba(223, 77, 77, 0.836);
+  height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   z-index: 100;
+   
+
+}
+
+.navbar-logo{
+
+font-size: 25px;
+justify-self: start;
+margin-left: 20px;
+margin-bottom: 50px;
+cursor:pointer;
+padding: 10px;
+}
+
+
+
+.nav-menu {
+
+
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap:10px;
+  text-align: center;
+  width:60vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.menu-icon {
+
+  display: none;
+}
+
+
+@media screen and (max-width: 960px){
+
+  .NavbarItems{
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px; 
+    height: 679px;
+    position: absolute;
+    top:80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+      }
+
+  .nav-menu.active {
+
+    background:  rgba(223, 77, 77, 0.836);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+
+
+.nav-links {
+
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  display: table;
+
+}
+
+
+.navbar-logo {
+
+  position: absolute;
+  bottom: -28px;
+  left: 10px; 
+  
+}
+
+
+.menu-icon {
+
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  left: 290px;
+  top:auto; 
+  
+}
+
+
+}
