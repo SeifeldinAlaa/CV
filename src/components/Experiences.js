@@ -57,7 +57,7 @@ export default class Experiences extends Component {
                                 </blockquote>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row"> 
                             <div className="col s12 m4 l4 xl4">
 
                                 <p className="teal year_exp white-text">
