@@ -19,7 +19,7 @@ export default class Experiences extends Component {
                             <div className="col s12 m8 l8 xl8">
                                 <blockquote className="no-pad">
                                     <h6 className="no-pad mt-bottom">
-                                        <strong>Data Entry / Sales at Neisco For Modern Water Systems, Cairo, Egypt</strong>
+                                        <strong>Data Entry Specialist / Sales at Neisco For Modern Water Systems, Cairo, Egypt</strong>
                                     </h6>
 
                                 </blockquote>
@@ -57,7 +57,7 @@ export default class Experiences extends Component {
                                 </blockquote>
                             </div>
                         </div>
-                        <div className="row"> 
+                        <div className="row">
                             <div className="col s12 m4 l4 xl4">
 
                                 <p className="teal year_exp white-text">
@@ -67,7 +67,7 @@ export default class Experiences extends Component {
                             <div className="col s12 m8 l8 xl8">
                                 <blockquote className="no-pad">
                                     <h6 className="no-pad mt-bottom">
-                                        <strong>Data Entry at Neisco For Modern Water Systems, Cairo</strong>
+                                        <strong>Data Entry Specialist at Neisco For Modern Water Systems, Cairo</strong>
                                     </h6>
 
                                 </blockquote>
